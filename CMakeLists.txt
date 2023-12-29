@@ -13,8 +13,8 @@ project ("part1")
 project ("part2")
 
 # Add source to this project's executable.
-add_executable (part1 "GearRatios-Part1.cpp")
-add_executable (part2 "GearRatios-Part2.cpp")
+add_executable (part1 "Scratchcards-Part1.cpp")
+add_executable (part2 "Scratchcards-Part2.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET part1 PROPERTY CXX_STANDARD 20)
